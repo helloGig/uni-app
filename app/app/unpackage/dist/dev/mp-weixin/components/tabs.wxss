@@ -1,0 +1,120 @@
+.tabs {
+  position: relative;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.tabs .active-switch {
+  overflow: scroll;
+}
+.tabs .active-switch .switch-container {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.tabs .active-switch .switch-container .focus-line {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 160rpx;
+  position: absolute;
+  bottom: 0;
+  border-bottom: 4rpx solid #f07;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.tabs .active-switch .switch-container .focus-line.fix {
+  width: 250rpx;
+}
+.tabs .active-switch .active-item {
+  position: relative;
+  min-width: 160rpx;
+  width: 160rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100rpx;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  border-bottom: 1rpx solid rgba(0,0,0,0.5);
+}
+.tabs .active-switch .active-item.focus {
+  background: #fff;
+  color: #f07;
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.tabs .active-switch .active-item.fix {
+  width: 250rpx;
+}
+.tabs .active-switch .active-item .item {
+  padding: 0 5rpx;
+  overflow: hidden;
+  font-size: 28rpx;
+}
+.tabs .tab-pane-view {
+  overflow: hidden;
+  background-color: #f7f7f7;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.tabs .tab-pane-view .tab-pane-group {
+  display: block;
+  white-space: nowrap;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 100%;
+  overflow: visible;
+  will-change: transform, left, top;
+  min-height: 100rpx;
+  height: 100%;
+}
+.tabs .tab-pane-view .tab-pane-group .tab-pane-item {
+  width: 100%;
+  min-height: 100rpx;
+  display: inline-block;
+  white-space: initial;
+  vertical-align: top;
+  font-size: 24rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: auto;
+}
+

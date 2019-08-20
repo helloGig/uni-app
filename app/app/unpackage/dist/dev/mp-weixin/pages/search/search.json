@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "搜索",
+  "navigationBarBackgroundColor": "#007AFF",
+  "usingComponents": {
+    "m-search": "/components/mehaotian-search-revision"
+  }
+}

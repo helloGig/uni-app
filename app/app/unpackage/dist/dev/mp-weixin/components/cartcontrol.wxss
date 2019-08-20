@@ -1,0 +1,23 @@
+
+.food-control.data-v-02db925d {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+}
+.cont.data-v-02db925d {
+	width: 22px;
+	height: 22px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-radius: 50%;
+	text-align: center;
+}
+

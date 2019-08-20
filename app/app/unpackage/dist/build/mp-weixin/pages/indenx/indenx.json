@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "登陆",
+  "navigationBarBackgroundColor": "#007AFF",
+  "usingComponents": {
+    "uni-drawer": "/components/uni-drawer/uni-drawer"
+  }
+}

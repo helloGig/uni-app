@@ -1,0 +1,517 @@
+
+.content {
+	/* text-align: center; */
+	/* height: 400upx; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	position: absolute;
+	top: 0px;
+	bottom: 55px;
+	width: 100%;
+	overflow: hidden;
+}
+.current {
+	position: relative;
+	z-index: 0;
+	background-color: #fff;
+	color: #00A0DC;
+}
+.menu-wrapper {
+	text-align: center;
+	width: 22%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	background: #f3f5f7;
+}
+.menu-item {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	height: 50px;
+}
+.allcount {
+	position: absolute;
+	right: 6px;
+	top: 8px;
+	display: inline-block;
+	padding: 0 4px;
+	font-size: 9px;
+	line-height: 16px;
+	font-weight: 400;
+	border-radius: 50%;
+	background-color: #f01414;
+	color: #ffffff;
+}
+.foods-wrapper {
+	margin-left: 4px;
+	width: 78%;
+}
+.food,
+.food-btm,
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.food-title {
+	padding: 2px 0;
+}
+.food-info {
+	margin-left: 10px;
+	margin-right: 16px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	    -ms-flex: 2;
+	        flex: 2;
+}
+.food-btm {
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.food-price {
+	color: #f01414;
+	font-size: 16px;
+}
+.commentPage-header {
+	height: 190rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding-bottom: 30rpx;
+	border-bottom: 20rpx solid #F4F4F4;
+}
+.commentPage-score {
+	-webkit-box-flex: 3.5;
+	-webkit-flex: 3.5;
+	    -ms-flex: 3.5;
+	        flex: 3.5;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 55rpx;
+	color: #FFB001;
+	border-right: 1px solid #E8E8E8;
+}
+.commentPage-score .overall {
+	margin-top: 10rpx;
+	font-size: 30rpx;
+	color: #9D9D9D
+}
+.commentPage-score .rate {
+	line-height: 50rpx;
+	font-size: 25rpx;
+	color: #E8E8E8;
+}
+.commentPage-rating {
+	padding-top: 20rpx;
+	-webkit-box-flex: 6;
+	-webkit-flex: 6;
+	    -ms-flex: 6;
+	        flex: 6;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 30rpx;
+	color: #9D9D9D;
+}
+.commentPage-rating .restaurant,
+.commentPage-rating .distribute {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 450rpx;
+}
+.commentPage-rating .distribute {
+	margin-top: 40rpx;
+}
+.commentPage-rating .stars {
+	margin: 0 40rpx;
+}
+.commentPage-category {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	border-bottom: 20rpx solid #F4F4F4;
+}
+.category-item-active {
+	background: #F0AD4E;
+	color: #007AFF;
+}
+.commentPage-category .category-item {
+	height: 40rpx;
+	line-height: 40rpx;
+	margin: 20rpx 10rpx;
+	font-size: 28rpx;
+	color: #9D9D9D;
+	border: 1px solid #ECECEC;
+	border-radius: 40rpx;
+	padding: 5rpx 15rpx;
+}
+page {
+	background-color: #f8f8f8;
+}
+.uni-padding-wrap {
+	padding: 30rpx;
+}
+view {
+	font-size: 28rpx;
+}
+.uni-comment {
+	padding: 5rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.uni-comment-list {
+	-webkit-flex-wrap: nowrap;
+	    -ms-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	padding: 10rpx 0;
+	margin: 10rpx 0;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.uni-comment-face {
+	width: 70rpx;
+	height: 80rpx;
+	border-radius: 100%;
+	margin-right: 20rpx;
+	-webkit-flex-shrink: 0;
+	    -ms-flex-negative: 0;
+	        flex-shrink: 0;
+	overflow: hidden;
+}
+.uni-comment-face image {
+	width: 100%;
+	border-radius: 100%;
+}
+.uni-comment-body {
+	width: 100%;
+}
+.uni-comment-top {
+	line-height: 1.5em;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.uni-comment-top text {
+	color: #0A98D5;
+	font-size: 24rpx;
+}
+.uni-comment-date {
+	line-height: 38rpx;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	display: -webkit-box !important;
+	display: -webkit-flex !important;
+	display: -ms-flexbox !important;
+	display: flex !important;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
+}
+.uni-comment-date view {
+	color: #666666;
+	font-size: 24rpx;
+	line-height: 38rpx;
+}
+.uni-comment-content {
+	line-height: 1.6em;
+	font-size: 28rpx;
+	padding: 8rpx 0;
+}
+.uni-comment-replay-btn {
+	background: #FFF;
+	font-size: 24rpx;
+	line-height: 28rpx;
+	padding: 5rpx 20rpx;
+	border-radius: 30rpx;
+	color: #333 !important;
+	margin: 0 10rpx;
+}
+.anglesList {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex; /*使用flex布局  */
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center; /*子元素在垂直方向居中对齐  */
+	padding: 25rpx 25rpx 25rpx 0; /*留出边距  */
+	/* margin-left: 25rpx; //其实可以写在内边距中 */
+	border-bottom: 1px solid #f1f1f1;
+	background: #3F536E;
+}
+
+/*anglesList的子元素指两个navigator  */
+
+/*头像和内容区域 */
+.anglesList .anglesNavigator {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex; /*头像和内容区域启动flex布局  */
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center; /*子元素在垂直方向居中对齐  */
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1; /*放大，占据剩余的空间  */
+}
+
+/*头像父层 */
+.anglesList .imgBox {
+	-webkit-box-flex: 0;
+	-webkit-flex: 0 0 110rpx;
+	    -ms-flex: 0 0 110rpx;
+	        flex: 0 0 110rpx; /*flex 是flex-grow, flex-shrink 和 flex-basis的简写。flex:0 0 110rpx的意思是不放大 不缩小 固定宽度是110rpx  */
+	width: 110rpx;
+	height: 110rpx;
+
+	padding: 5rpx;
+	margin-right: 20rpx;
+}
+
+/*头像 */
+.anglesList .imgBox image {
+	width: 110rpx;
+	height: 110rpx;
+	padding-left: 5px;
+}
+
+/*文字区域 */
+.anglesList .textBox {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1; /*放大，占据剩余的空间。  */
+}
+
+/*文本限制宽度，超出隐藏  */
+.anglesList text {
+	display: block;
+	max-width: 12em;
+	overflow: hidden;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	color: white;
+}
+
+/*按钮  */
+.btnFollowed {
+	/* //flex-basis: 140rpx; //指定宽度，也可以写width */
+	height: 55rpx;
+	border: 1px solid #007ae8;
+	border-radius: 6px;
+	background: #F0AD4E;
+	text-align: center;
+	font-size: 28rpx;
+	line-height: 55rpx;
+	width: 40px;
+	color: #007ae8;
+}
+.tag {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-align-content: center;
+	    -ms-flex-line-pack: center;
+	        align-content: center;
+}
+@font-face {
+	font-family: texticons;
+	font-weight: normal;
+	font-style: normal;
+	src: url('https://at.alicdn.com/t/font_984210_5cs13ndgqsn.ttf') format('truetype');
+}
+.tag view {
+	margin-right: 2px;
+	width: auto;
+	height: 45rpx;
+	border: 1px dashed #007AFF;
+	color: #F3F5F7;
+}
+.center {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.center-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	background-color: #FFFFFF;
+	margin-top: 20rpx;
+	width: 750rpx;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.center-list-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 90rpx;
+	width: 750rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	padding: 0rpx 20rpx;
+}
+.list-icon {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 40rpx;
+	height: 90rpx;
+	line-height: 90rpx;
+	font-size: 34rpx;
+	color: #4cd964;
+	text-align: center;
+	font-family: texticons;
+	margin-right: 20rpx;
+}
+.list-text {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 90rpx;
+	line-height: 90rpx;
+	font-size: 34rpx;
+	color: #555;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	text-align: left;
+}
+.navigat-arrow {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 90rpx;
+	width: 40rpx;
+	line-height: 90rpx;
+	font-size: 34rpx;
+	color: #555;
+	text-align: right;
+	font-family: texticons;
+}
+.logo-hover {
+	opacity: 0.8;
+}
+

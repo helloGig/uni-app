@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/indenx/indenx",
+    "pages/forget/forget",
+    "pages/register/register"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "app",
+  "compilerVersion": "2.2.0",
+  "usingComponents": {}
+}

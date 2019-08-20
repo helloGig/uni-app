@@ -1,0 +1,1 @@
+<view class="tab-pane-item"><slot></slot></view>

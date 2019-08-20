@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "电子校外卖",
+  "navigationBarBackgroundColor": "#007AFF",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "nav_choose": "/components/nav_choose"
+  }
+}

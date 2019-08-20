@@ -1,0 +1,64 @@
+
+.landing{
+	height: 84rpx;
+	line-height: 84rpx;
+	border-radius: 44rpx;
+	font-size: 32rpx;
+	background: -webkit-gradient(linear,left top, right top,from(#FF978D), to(#FFBB69));
+	background: -o-linear-gradient(left,#FF978D, #FFBB69);
+	background: linear-gradient(left,#FF978D, #FFBB69);
+}
+.login-btn{
+	padding: 10rpx 20rpx;
+	margin-top: 350rpx;
+}
+.login-function{
+	overflow: auto;
+	padding: 20rpx 20rpx 30rpx 20rpx;
+}
+.login-forget{
+	float: left;
+	font-size: 26rpx;
+	color: #999;
+}
+.login-register{
+	color: #666;
+	float: right;
+	font-size: 26rpx;
+}
+.login-input input{
+	background: #F2F5F6;
+	font-size: 28rpx;
+	padding: 10rpx 25rpx;
+	height: 62rpx;
+	line-height: 62rpx;
+	border-radius: 8rpx;
+}
+.login-margin-b{
+	margin-bottom: 25rpx;
+}
+.login-input{
+	padding: 10rpx 20rpx;
+}
+.login-head{
+	font-size: 34rpx;
+	text-align: center;
+	padding: 25rpx 10rpx 55rpx 10rpx;
+}
+.login-card{
+	background: #fff;
+	border-radius: 12rpx;
+	padding: 10rpx 25rpx;
+	-webkit-box-shadow: 0 6rpx 18rpx rgba(0,0,0,0.12);
+	        box-shadow: 0 6rpx 18rpx rgba(0,0,0,0.12);
+	position: relative;
+	margin-top: 120rpx;
+}
+.login-bg {
+	height: 260rpx;
+	padding: 25rpx;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FF978D), to(#FFBB69));
+	background: -o-linear-gradient(#FF978D, #FFBB69);
+	background: linear-gradient(#FF978D, #FFBB69);
+}
+

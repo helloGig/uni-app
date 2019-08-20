@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "cartcontrol": "/components/cartcontrol"
+  },
+  "component": true
+}

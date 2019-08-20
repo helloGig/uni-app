@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "汉堡王早餐",
+  "navigationBarBackgroundColor": "#3F536E",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "shopcart": "/components/shopcart",
+    "cartcontrol": "/components/cartcontrol",
+    "tabs": "/components/tabs",
+    "tab-pane": "/components/tabPane"
+  }
+}

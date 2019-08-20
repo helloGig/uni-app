@@ -1,0 +1,96 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "电子校外卖",
+				"navigationBarBackgroundColor": "#007AFF",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#007AFF"
+			}
+		},
+		{
+			"path": "pages/forget/forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"navigationBarBackgroundColor": "#007AFF"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationBarBackgroundColor": "#007AFF"
+			}
+		},
+		{
+			"path": "pages/shoping-car/shopingCar",
+			"style": {
+				"navigationBarTitleText": "汉堡王早餐",
+				"navigationBarBackgroundColor": "#3F536E",
+				"navigationBarTextStyle":"white"			
+			}
+		},
+		{
+			"path": "pages/oder/oder",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"navigationBarBackgroundColor": "#007AFF"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登陆",
+				"navigationBarBackgroundColor": "#007AFF"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor": "#007AFF"
+			}
+		}
+	],
+	"tabBar": {
+		"color":"#007AFF",
+		"selectedColor":"#C6E746",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"text": "首页",
+			"iconPath": "static/home_pic/home.png",
+			"selectedIconPath": "static/home_pic/home-selected.png"
+		}, {
+			"pagePath": "pages/oder/oder",
+			"text": "订单",
+			"iconPath": "static/home_pic/order.png",
+			"selectedIconPath": "static/home_pic/order-selected.png"
+		}, {
+			"pagePath": "pages/personal/personal",
+			"text": "我的",
+			"iconPath": "static/home_pic/my.png",
+			"selectedIconPath": "static/home_pic/my-selected.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}
